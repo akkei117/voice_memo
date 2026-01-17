@@ -1,9 +1,10 @@
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vibration/vibration.dart';
-import 'package:voice_memo/pages/homescreen.dart';
+import 'package:voice_memo/features/ui/screens/homescreen.dart';
 
 class Introscreen extends StatefulWidget {
   const Introscreen({super.key});
@@ -107,63 +108,3 @@ class _IntroscreenState extends State<Introscreen>
   }
 }
 
-/*
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
-
-  @override
-  State<MyWidget> createState() => _MyWidgetState();
-}
-
-class _MyWidgetState extends State<MyWidget> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
-
- */
-/*
-@override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: .center,
-          children: [
-            Icon(Icons.mic_rounded, size: 250, color: Colors.black),
-
-            Text(
-              "Voice Memo",
-              style: GoogleFonts.inter(fontSize: 50, fontWeight: .w600),
-            ),
-            Row(
-              mainAxisAlignment: .spaceAround,
-              children: [
-                SizedBox(),
-                Container(
-                  decoration: BoxDecoration(
-                    border: BoxBorder.all(
-                      color: const Color.fromARGB(255, 17, 17, 17),
-                      width: 1,
-                
-                    ),
-                    color: const Color.fromRGBO(255, 117, 31, 1),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      "By Sanidhya Malviya",
-                      style: GoogleFonts.inter(fontSize: 16, fontWeight: .w600),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
-    );
-  }
- */
